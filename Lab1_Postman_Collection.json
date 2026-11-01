@@ -1,0 +1,74 @@
+{
+  "info": {
+    "_postman_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "name": "BDF Lab 1 - K.MANOHAR REDDY (252U1R5069)",
+    "description": "Postman collection for BDF Lab 1: GET /, GET /about, GET /time, and 404 handling.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "1. GET / (Welcome Message)",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "3000",
+          "path": [""]
+        },
+        "description": "Tests the root route returning welcome greeting text and status code 200."
+      },
+      "response": []
+    },
+    {
+      "name": "2. GET /about (Student Details JSON)",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/about",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "3000",
+          "path": ["about"]
+        },
+        "description": "Tests the /about route returning student details in JSON format and status code 200."
+      },
+      "response": []
+    },
+    {
+      "name": "3. GET /time (Current Time JSON)",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/time",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "3000",
+          "path": ["time"]
+        },
+        "description": "Tests the /time route returning current date and time using new Date() and status code 200."
+      },
+      "response": []
+    },
+    {
+      "name": "4. GET /unknown (404 Page Not Found)",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/unknown",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "3000",
+          "path": ["unknown"]
+        },
+        "description": "Tests custom 404 handler for undefined routes returning status code 404."
+      },
+      "response": []
+    }
+  ]
+}

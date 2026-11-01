@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: backend-lab-01-manohar
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /
+    autoDeployTrigger: commit
