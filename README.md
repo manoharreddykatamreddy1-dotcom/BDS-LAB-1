@@ -2,7 +2,7 @@
 
 **Live Deployment:** [https://bds-lab-1-1-gcon.onrender.com/](https://bds-lab-1-1-gcon.onrender.com/)
 
-**GitHub Repository:** [https://github.com/manohar-reddy/Backend-lab-1](https://github.com/manohar-reddy/Backend-lab-1)
+**GitHub Repository:** [https://github.com/manoharreddykatamreddy1-dotcom/BDS-LAB-1](https://github.com/manoharreddykatamreddy1-dotcom/BDS-LAB-1)
 
 **Deployment Platform:** Render  
 **Deployment Status:** Live — `/`, `/about`, and `/time` return 200; unknown routes return 404
@@ -50,7 +50,7 @@ The application has been developed locally using Visual Studio Code and uploaded
 ## Project Structure
 
 ```text
-Backend-lab-1/
+BDS-LAB-1/
 │
 ├── screenshots/
 │   ├── home.png
@@ -100,7 +100,7 @@ npm -v
 ### Clone the GitHub Repository
 
 ```bash
-git clone https://github.com/manohar-reddy/Backend-lab-1.git
+git clone https://github.com/manoharreddykatamreddy1-dotcom/BDS-LAB-1.git
 ```
 
 Open the downloaded project folder using Visual Studio Code.
@@ -397,9 +397,9 @@ curl -i https://bds-lab-1-1-gcon.onrender.com/unknown
 
 The complete project source code is hosted on GitHub.
 
-**Repository Name:** `Backend-lab-1`  
+**Repository Name:** `BDS-LAB-1`  
 **Repository Branch:** `main`  
-**Repository Link:** [https://github.com/manohar-reddy/Backend-lab-1](https://github.com/manohar-reddy/Backend-lab-1)
+**Repository Link:** [https://github.com/manoharreddykatamreddy1-dotcom/BDS-LAB-1](https://github.com/manoharreddykatamreddy1-dotcom/BDS-LAB-1)
 
 ### GitHub Commands Used
 
@@ -408,7 +408,7 @@ git init
 git add .
 git commit -m "BDF Lab 1 - Node.js and Express Server by K.MANOHAR REDDY (252U1R5069)"
 git branch -M main
-git remote add origin https://github.com/manohar-reddy/Backend-lab-1.git
+git remote add origin https://github.com/manoharreddykatamreddy1-dotcom/BDS-LAB-1.git
 git push -u origin main
 ```
 
@@ -509,5 +509,5 @@ Git and GitHub are used for version control and source code hosting, while Rende
 **University:** Aurora Higher Education and Research Academy  
 **Faculty:** Sai Shiva Teja Sir  
 
-**GitHub:** [https://github.com/manohar-reddy/Backend-lab-1](https://github.com/manohar-reddy/Backend-lab-1)  
+**GitHub:** [https://github.com/manoharreddykatamreddy1-dotcom/BDS-LAB-1](https://github.com/manoharreddykatamreddy1-dotcom/BDS-LAB-1)  
 **Live Project:** [https://bds-lab-1-1-gcon.onrender.com/](https://bds-lab-1-1-gcon.onrender.com/)
