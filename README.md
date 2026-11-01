@@ -1,6 +1,6 @@
 # BDF Lab 1 - Node.js and Express Server
 
-**Live Deployment:** [https://backend-lab-01-manohar.onrender.com/](https://backend-lab-01-manohar.onrender.com/)
+**Live Deployment:** [https://bds-lab-1-1-gcon.onrender.com/](https://bds-lab-1-1-gcon.onrender.com/)
 
 **GitHub Repository:** [https://github.com/manohar-reddy/Backend-lab-1](https://github.com/manohar-reddy/Backend-lab-1)
 
@@ -182,7 +182,7 @@ The Express server provides three GET routes and custom 404 handling.
 
 ### 1. GET / — Home Route
 
-**Live URL:** [https://backend-lab-01-manohar.onrender.com/](https://backend-lab-01-manohar.onrender.com/)
+**Live URL:** [https://bds-lab-1-1-gcon.onrender.com/](https://bds-lab-1-1-gcon.onrender.com/)
 
 **Response:**
 
@@ -196,7 +196,7 @@ This route displays a personalized welcome message and confirms that the Express
 
 ### 2. GET /about — Student Details
 
-**Live URL:** [https://backend-lab-01-manohar.onrender.com/about](https://backend-lab-01-manohar.onrender.com/about)
+**Live URL:** [https://bds-lab-1-1-gcon.onrender.com/about](https://bds-lab-1-1-gcon.onrender.com/about)
 
 **Expected Response:**
 
@@ -214,7 +214,7 @@ This endpoint returns student information in JSON format using `res.json()`.
 
 ### 3. GET /time — Current Date and Time
 
-**Live URL:** [https://backend-lab-01-manohar.onrender.com/time](https://backend-lab-01-manohar.onrender.com/time)
+**Live URL:** [https://bds-lab-1-1-gcon.onrender.com/time](https://bds-lab-1-1-gcon.onrender.com/time)
 
 **Example Response:**
 
@@ -230,7 +230,7 @@ The date and time are generated dynamically using JavaScript's `new Date()` func
 
 ### 4. GET /unknown — 404 Error Handling
 
-**Live URL:** [https://backend-lab-01-manohar.onrender.com/unknown](https://backend-lab-01-manohar.onrender.com/unknown)
+**Live URL:** [https://bds-lab-1-1-gcon.onrender.com/unknown](https://bds-lab-1-1-gcon.onrender.com/unknown)
 
 **Expected Response:**
 
@@ -353,10 +353,10 @@ curl -i http://localhost:3000/unknown
 ### 3. Public Deployment Testing
 
 ```bash
-curl -i https://backend-lab-01-manohar.onrender.com/
-curl -i https://backend-lab-01-manohar.onrender.com/about
-curl -i https://backend-lab-01-manohar.onrender.com/time
-curl -i https://backend-lab-01-manohar.onrender.com/unknown
+curl -i https://bds-lab-1-1-gcon.onrender.com/
+curl -i https://bds-lab-1-1-gcon.onrender.com/about
+curl -i https://bds-lab-1-1-gcon.onrender.com/time
+curl -i https://bds-lab-1-1-gcon.onrender.com/unknown
 ```
 
 ### Expected HTTP Status Codes
@@ -429,12 +429,12 @@ The current public service is available at the Render URL below. The `render.yam
 | Build Command | `npm install` |
 | Start Command | `npm start` |
 | Port | `process.env.PORT` or 3000 |
-| Deployment URL | https://backend-lab-01-manohar.onrender.com/ |
+| Deployment URL | https://bds-lab-1-1-gcon.onrender.com/ |
 | Plan | Free |
 
 ### Live Deployment URL
 
-**https://backend-lab-01-manohar.onrender.com/**
+**https://bds-lab-1-1-gcon.onrender.com/**
 
 ### Deployment Details
 
@@ -510,4 +510,4 @@ Git and GitHub are used for version control and source code hosting, while Rende
 **Faculty:** Sai Shiva Teja Sir  
 
 **GitHub:** [https://github.com/manohar-reddy/Backend-lab-1](https://github.com/manohar-reddy/Backend-lab-1)  
-**Live Project:** [https://backend-lab-01-manohar.onrender.com/](https://backend-lab-01-manohar.onrender.com/)
+**Live Project:** [https://bds-lab-1-1-gcon.onrender.com/](https://bds-lab-1-1-gcon.onrender.com/)
