@@ -293,22 +293,25 @@ The following screenshots provide evidence of the working Express.js routes.
 ### Screenshot 1 — Home Route
 Displays the personalized welcome message.
 
-![Home Route](screenshots/home.png)
+<img width="1920" height="1080" alt="Screenshot 2026-11-01 223812" src="https://github.com/user-attachments/assets/d2ab2a1c-ea57-410f-a925-b48d883220d1" />
+
 
 ### Screenshot 2 — About Route
 Displays the student's name, roll number, and section in JSON format.
+<img width="1920" height="1080" alt="Screenshot 2026-11-01 223828" src="https://github.com/user-attachments/assets/08ec5fde-4c7b-4b6f-b1d2-60030ab1a0bd" />
 
-![About Route](screenshots/about.png)
+
 
 ### Screenshot 3 — Time Route
 Displays the dynamically generated current date and time.
+<img width="1920" height="1080" alt="Screenshot 2026-11-01 223845" src="https://github.com/user-attachments/assets/41419982-0e45-4b7f-a15d-7f8a8c94f8b3" />
 
-![Time Route](screenshots/time.png)
 
 ### Screenshot 4 — 404 Error Route
 Displays the custom page-not-found response.
+<img width="1920" height="1080" alt="Screenshot 2026-11-01 223902" src="https://github.com/user-attachments/assets/7146c8d4-0d79-48d6-9fbd-0aef801bb9e7" />
 
-![404 Error Route](screenshots/404.png)
+
 
 ---
 
